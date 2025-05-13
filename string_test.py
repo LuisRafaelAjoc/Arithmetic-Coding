@@ -20,7 +20,7 @@ print(f"Original: {message}")
 print(f"Encoded: {code}")
 print(f"Decoded: {decoded_message}")
 
-# Obtain memory usage of original and compressed message
+# Size of original and compressed message
 message_space = sys.getsizeof(message)
 print(f"Memory used by original message: {message_space}")
 compressed_space = math.ceil(len(code) / 8)
